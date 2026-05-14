@@ -1,0 +1,7 @@
+# --- DocFX build output ---
+_site/
+api/
+obj/
+_temp/
+.cache/
+manifest.json

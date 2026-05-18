@@ -1,14 +1,10 @@
 # Participate in Review
 
-Once a pull request is created, it needs to be reviewed and approved before merging it into the `main` branch.  If you're selected to review a PR, you can complete the following steps to review it.
-
-## Reviewing a PR
-
-As an example, let's say you're asking to review the following PR:
+Once a pull request (PR) is created, it needs to be reviewed and approved before merging it into the `main` branch.  The following procedure provide examples of the most common actions you'll complete when reviewing a PR.  In this example, we're using the following PR.
 
 https://github.com/SVCMarineTechnology/Troubleshooting/pull/5
 
-Complete the following steps to do so:
+## Reviewing a Pull Request
 
 1. Open the PR you want to review.  For example:
 
@@ -16,15 +12,13 @@ Complete the following steps to do so:
 
 2. Review the change.  You'll want to pay particular attention to the following items:
 
-   - Description - Read it to understand the overall change
-   - Comments - Check if others have added a comment to learn about issues that have already been identified.
-   - Files changed - Review the individual files that have been modified in the PR
+   - **Description** - Read it to understand the overall change
+   - **Comments** - Check if others have added a comment to learn about issues that have already been identified.
+   - **Files changed** - Review the individual files that have been modified in the PR
 
    for example:
 
    ![](C:\github\SVCMarineTechnology\Troubleshooting\contribute\images\participate-in-review-review-change.png)
-
-In the following procedures we'll add a general comment as well as a comment to a particular file.
 
 ## Add a comment to a file
 
@@ -60,10 +54,28 @@ As the person who create the PR, you'll need to resolve all comments before you 
 
    ![](images/participate-in-review-look-at-all-comments.png)
 
-2. Resolve the comment.  
+2. Make the changes suggested by the comment.  
 
    > [!NOTE]
    >
    > In this example, we're resolving the first comment by fixing the formatting issue and making 'OK' bold.  This means changing the appropriate file and pushing the change.
 
-3. 
+3. Resolve the comment by clicking **Resolve conversation**.
+
+   > [!TIP]
+   >
+   > If you're not ready to resolve the conversation you can also reply to the reviewer by entering a message in the **Reply** text box.
+
+   ![](images/participate-in-review-click-resolve-conversation.png)
+
+   4. Now enter a message to the reviewer and click **Comment**.
+
+   ![](images/participate-in-review-resolve-comment.png)
+
+> [!TIP]
+>
+> It's helpful to write something so the reviewer knows you actually did something before resolving the comment.  Simply writing 'fixed' is a good example.  Add additional detail if appropriate.
+
+This resolves this particular comment.  Resolving any other comment (including general comments) works the same way.
+
+   

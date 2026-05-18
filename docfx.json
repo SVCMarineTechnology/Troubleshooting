@@ -27,7 +27,7 @@
     "resource": [
       {
         "files": [
-          "images/**"
+          "**/images/**"
         ]
       }
     ],
@@ -40,7 +40,8 @@
       "_appName": "",
       "_appTitle": "",
       "_enableSearch": true,
-      "pdf": true
+      "pdf": true,
+      "_appLogoPath": "images/skallywags.jpg"
     }
   }
 }

@@ -1,4 +1,6 @@
-- name: Docs
-  href: docs/
-- name: API
-  href: api/
+- name: Troubleshooting
+  href: troubleshooting/
+- name: How to Contribute
+  href: contribute/
+- name: About
+  href: about/

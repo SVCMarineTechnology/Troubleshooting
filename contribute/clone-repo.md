@@ -42,7 +42,7 @@ This is asking you to open a Windows Command Prompt where the current directory 
 
 3. Rename the shortcut you just created to `Troubleshooting`
 
-4. Right click the shortcut and select **Properties**. Set the properties as follows and click OK
+4. Right click the shortcut and select **Properties**. Set the properties as follows and click **OK**
 
    | Parameter | Example Value                                 | Comments |
    | --------- | --------------------------------------------- | -------- |

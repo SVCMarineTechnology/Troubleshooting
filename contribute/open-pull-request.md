@@ -14,6 +14,10 @@ When you're ready to put your changes up for review, you'll need to open a pull 
 
    ![](images/open-pull-request-select-new-pull-request.png)
 
-4. Set the following parameters
+4. Enter a title and description and then click **Create pull request**
 
-   TBD
+   ![](images/open-pull-request-enter-title-description.png)
+
+   > [!TIP]
+   >
+   > Keep your title short and summarize the change you're making.  Provide enough detail in the description that others can understand what the change entails.

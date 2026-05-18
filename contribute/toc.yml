@@ -1,2 +1,16 @@
 - name: Introduction
   href: introduction.md
+- name: Procedures
+  items:
+    - name: Clone Repo
+      href: clone-repo.md
+    - name: Create Branch
+      href: create-branch.md
+    - name: Keep Branch Up-to-date
+      href: update-branch.md
+    - name: Open Pull Request
+      href: open-pull-request.md
+    - name: Participate in Review
+      href: participate-in-review.md
+    - name: Merge and Clean Up
+      href: merge-and-clean-up.md

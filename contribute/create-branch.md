@@ -15,7 +15,7 @@ In order to contribute changes to the repo, you'll need to create a branch to st
    for example:
 
    ```powershell
-   git checkout -b MichelBarnett/contribute
+   git checkout -b michelbarnett/contribute
    ```
 
    > [!NOTE]
@@ -57,4 +57,12 @@ Before we can push changes we need to associate the local branch we just created
    git push --set-upstream origin michelbarnett/contribute
    ```
 
-   This associates our local branch with a remote branch in the repo (that's named the same).  From now on you can push changes simply by executing `git push`.
+   This associates our local branch with a remote branch in the repo (that's named the same).  
+
+   > [!TIP]
+   >
+   > From now on you can push changes simply by executing:
+   >
+   > ````powershell
+   > git push
+   > ````

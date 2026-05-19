@@ -1,6 +1,4 @@
 - name: Introduction
   href: introduction.md
-- name: Troubleshooting 1
-  href: troubleshooting-1.md
-- name: Troubleshooting 2
-  href: troubleshooting-2.md
+- name: Water Pumps
+  href: water-pumps.md

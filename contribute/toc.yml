@@ -1,11 +1,17 @@
 - name: Introduction
   href: introduction.md
-- name: Procedures
+- name: Style Guide
+  href: style-guide.md
+- name: Template
+  href: template.md
+- name: Contribution Procedures
   items:
     - name: Clone Repo
       href: clone-repo.md
     - name: Create Branch
       href: create-branch.md
+    - name: Run DocFX
+      href: run-docfx.md
     - name: Keep Branch Up-to-date
       href: update-branch.md
     - name: Open Pull Request

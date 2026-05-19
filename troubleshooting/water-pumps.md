@@ -25,11 +25,11 @@ This guide details how to trouble-shoot an electrical water pump that fails to r
 
 ## 🔍 Quick Diagnosis Table
 
-| Symptom | Most Likely Cause | Go To Section |
-|---|---|---|
-| The pump runs and makes noise but water doesn't flow | The tank is out of water or valves are worn out | [Symptom 1](#symptom-1-the-pump-runs-and-makes-noise-but-water-doesnt-flow) |
-| The circuit breaker or fuse is tripping | Short in pump or connected wiring | [Symptom 2](#symptom-2-the-circuit-breaker-or-fuse-is-tripping) |
-| The pump fails to run | Broken connection in pump circuit | [Symptom 3](#symptom-3-the-pump-fails-to-run) |
+| Symptom | Go To Section |
+|---|---|
+| The pump runs and makes noise but water doesn't flow | [Symptom 1](#symptom-1-the-pump-runs-and-makes-noise-but-water-doesnt-flow) |
+| The circuit breaker or fuse is tripping | [Symptom 2](#symptom-2-the-circuit-breaker-or-fuse-is-tripping) |
+| The pump fails to run | [Symptom 3](#symptom-3-the-pump-fails-to-run) |
 
 ---
 
@@ -103,7 +103,9 @@ This guide details how to trouble-shoot an electrical water pump that fails to r
 
 2. Disconnect a wire to one of the terminals
 
-   COMMENT: It looks like we're missing a step which is to connect the jumper wire to the two exposed terminals?
+   In the next step we'll connect the terminals with a jumper wire to temporarily bypass the pressure switch.
+
+   QUESTION TO MIKE BEEMER: It looks like we're missing a step where we connect the terminals with the jumper wire.
 
 3. Reset the breaker (or install a new fuse)
 

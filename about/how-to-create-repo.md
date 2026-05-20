@@ -19,6 +19,7 @@ The procedures below were used to create this repo:
 - [Create a GitIgnore File](create-gitignore.md)
 - [Configure GitHub Page Settings](configure-github-page-settings.md)
 - [Create GitHub Action Workflow for DocFX](create-github-action-workflow-for-docfx.md)
+- [Create Initial Content](create-initial-content.md)
 - [Verify Initial Site](verify-initial-site.md)
 
 

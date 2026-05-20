@@ -21,5 +21,7 @@
       href: configure-github-page-settings.md
     - name: Create GitHub Action Workflow for DocFX
       href: create-github-action-workflow-for-docfx.md
+    - name: Create Initial Content
+      href: create-initial-content.md
     - name: Verify Initial Site
       href: verify-initial-site.md

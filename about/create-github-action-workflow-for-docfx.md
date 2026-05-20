@@ -37,4 +37,4 @@ TBD
 
 ## Next Steps
 
-That's it for the repo setup.  The last thing to do is [verify the initial site](verify-initial-site.md).
+That's it for the repo setup.  The last thing to do is [create the initial content](create-initial-content.md) we'll need for the site.

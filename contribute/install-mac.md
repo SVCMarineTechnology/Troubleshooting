@@ -38,9 +38,6 @@ There are multiple ways to install Git.  One of easier methods is installing the
    xcode-select --install
    ```
 
-   you should see something like this:
-
-   ![]()
 
 Now when you open Terminal, you can execute `git` by typing:
 
@@ -61,10 +58,6 @@ For additional information see:<br>[Git - Install for macOS](https://git-scm.com
    ```powershell
    dotnet tool update -g docfx
    ```
-
-   you should see something like this:
-
-   ![]()
 
 3. Install the latest version of Node.js by opening this link and following the directions:
 

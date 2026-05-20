@@ -6,7 +6,18 @@ In order to contribute changes to the repo, you'll need to create a branch to st
 
 1. Open a [Troubleshooting](https://github.com/SVCMarineTechnology/Troubleshooting) command prompt.
 
-2. Create a branch by executing the following:
+2. Pull the latest changes from main by executing
+
+   ```powershell
+   git checkout main
+   git pull
+   ```
+
+   > [!TIP]
+   >
+   > Before creating a new branch from `main`, it's always a good idea to ensure you're on the `main` branch first, and that you have the latest changes.
+
+3. Create a branch by executing the following:
 
    ```powershell
    git checkout -b <UserName>/<BranchName> 

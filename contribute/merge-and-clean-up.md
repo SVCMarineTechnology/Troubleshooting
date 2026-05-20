@@ -24,7 +24,7 @@ Now that the change has been merged we need to delete the branch we created in t
 
 You'll also want to delete your local branch.  You can do so by completing the following steps.
 
-1. Open [Troubleshooting](https://github.com/SVCMarineTechnology/Troubleshooting) command prompt
+1. Open a [Troubleshooting](https://github.com/SVCMarineTechnology/Troubleshooting) command prompt
 
 2. View current branches by executing:
 

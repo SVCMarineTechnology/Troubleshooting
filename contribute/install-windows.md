@@ -6,7 +6,7 @@ The following procedures we're run on a machine with the following software:
 
 You can have additional software installed but it's suggested you start with at least this version of the operating system.
 
-Complete the following procedures in order.  When complete, you'll be ready to clone the repo and edit any files that you like.
+Complete the following procedures in order.  When this software is installed, you'll be ready to clone the repo and edit any files that you like.
 
 ## Install Git
 

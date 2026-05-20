@@ -1,2 +1,25 @@
 - name: Introduction
   href: introduction.md
+- name: How this Repo Was Created
+  href: how-to-create-repo.md
+  items:
+    - name: Create GitHub User
+      href: create-github-user.md
+    - name: Create GitHub Repo
+      href: create-github-repo.md
+    - name: Clone the Repo
+      href: clone-repo.md
+    - name: Add Collaborators
+      href: add-collaborators.md
+    - name: Create Main Branch
+      href: create-main-branch.md
+    - name: Configure Branch Settings
+      href: configure-branch-settings.md
+    - name: Create a GitIgnore File
+      href: create-gitignore.md
+    - name: Configure GitHub Page Settings
+      href: configure-github-page-settings.md
+    - name: Create GitHub Action Workflow for DocFX
+      href: create-github-action-workflow-for-docfx.md
+    - name: Verify Initial Site
+      href: verify-initial-site.md

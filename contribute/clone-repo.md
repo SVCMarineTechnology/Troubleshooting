@@ -28,17 +28,21 @@ Before you can start working with the [Troubleshooting](https://github.com/SVCMa
 
    This clones the repo to the `\github\SVCMarineTechnology\Troubleshooting` folder.
 
-## [Optional] Create a Shortcut for The Repo
+## [Windows Only] Create a Shortcut for The Repo
 
 The rest of this guide includes steps that state:
 
 1.  Open a [Troubleshooting](https://github.com/SVCMarineTechnology/Troubleshooting) command prompt
 
-This is asking you to open a Windows Command Prompt where the current directory is the root of the repo we just cloned. The following procedure explains how to create a shortcut that accomplishes this.
+This is asking you to open a Windows Command Prompt where the current directory is the root of the repo we just cloned. If you're using Windows, the following procedure explains how to create a shortcut that accomplishes this.
+
+> [!TIP]
+>
+> If you're on a Mac, then whenever you see the step asking you to open a  [Troubleshooting](https://github.com/SVCMarineTechnology/Troubleshooting) command prompt, just open **Terminal** and set the working directory to the root folder of the repo.
 
 1. Open the start menu, search for **Command Prompt**, right-click it, and select **Open File Location**
 
-2. Drag the Command Prompt shortcut to the desktop
+2. *Copy* the **Command Prompt** shortcut to the desktop
 
 3. Rename the shortcut you just created to `Troubleshooting`
 

@@ -1,5 +1,12 @@
 - name: Introduction
   href: introduction.md
+- name: Install Software
+  href: install-software.md
+  items:
+    - name: Windows
+      href: install-windows.md
+    - name: Mac
+      href: install-mac.md
 - name: Style Guide
   href: style-guide.md
 - name: Template

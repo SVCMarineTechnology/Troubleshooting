@@ -4,7 +4,12 @@ Thanks for your interest in contributing!
 
 This repo uses a Pull Request (PR) workflow, protected main branch, and a lightweight review process.  This guide explains exactly how to propose changes, what's expected, and how to get your contribution merged.
 
-Before you make a contribution to the repo, make sure you're familiar with the [Style Guide](style-guide.md).  When you're ready, complete these steps to contribute a change:
+Before you make a contribution to the repo, you'll need to review a couple of documents:
+
+- [Style Guide](style-guide.md) - this details conventions used when writing the troubleshooting guides in this repo.  Be sure you follow these conventions when you modify or create your own troubleshooting guide.
+- [Install Software](install-software.md) - Required and optional software needed before you start working with this repo.
+
+Start by reviewing the [Style Guide](style-guide.md)  and complete the procedures on the [Install Software](install-software.md) page.  When you're ready, complete these steps to contribute a change:
 
 1. [Clone the Repo](clone-repo.md)
 

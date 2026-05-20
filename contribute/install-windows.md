@@ -44,6 +44,10 @@ For additional information see:<br>[Git - Install for Windows](https://git-scm.c
 
    ![](images/install-windows-dotnet-tool-update-docfx.png)
 
+3. Install the latest version of Node.js by opening this link and following the directions:
+
+   [Node.js — Run JavaScript Everywhere](https://nodejs.org/en)
+
 Now when you open a command prompt you can execute `docfx` by typing:
 
 ```powershell

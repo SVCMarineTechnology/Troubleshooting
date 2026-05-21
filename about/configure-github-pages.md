@@ -158,7 +158,7 @@ Each step of these steps are summarized below:
 ### Create and Merge PR
 
 1. Create a PR from your branch and merge
-2. Delete the branch (locally and in the repo)
+2. Delete the branch
 
 ## Next Steps
 

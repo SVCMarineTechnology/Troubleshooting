@@ -142,4 +142,4 @@ Before we start creating markdown files we'll want to create a [.gitignore](http
 
 ## Next Steps
 
-With the gitignore file checked in, we'll proceed with some additional repo configuration.  Specifically [configuring GitHub page settings](configure-github-page-settings.md).
+With the gitignore file checked in, we'll proceed with some additional repo configuration.  Specifically [configuring GitHub Pages](configure-github-pages.md).

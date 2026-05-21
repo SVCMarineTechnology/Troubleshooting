@@ -10,16 +10,29 @@ This section was written for a few  reasons:
 
 The procedures below were used to create this repo:
 
+**<u>Repo Creation</u>**
+
 - [Create GitHub User](create-github-user.md)
 - [Create GitHub Repo](create-github-repo.md)
 - [Clone the Repo](clone-repo.md)
+
+**<u>Repo Configuration</u>**
+
 - [Add Collaborators](add-collaborators.md)
 - [Create Main Branch](create-main-branch.md)
 - [Configure Branch Settings](configure-branch-settings.md)
 - [Create a GitIgnore File](create-gitignore.md)
-- [Configure GitHub Page Settings](configure-github-page-settings.md)
-- [Create GitHub Action Workflow for DocFX](create-github-action-workflow-for-docfx.md)
+
+**<u>GitHub Pages Setup</u>**
+
+- [Configure GitHub Pages](configure-github-pages.md)
+
+**<u>Site Structure</u>**
+
 - [Create Initial Content](create-initial-content.md)
+
+**<u>Verification</u>**
+
 - [Verify Initial Site](verify-initial-site.md)
 
 

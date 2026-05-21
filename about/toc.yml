@@ -1,2 +1,29 @@
 - name: Introduction
   href: introduction.md
+- name: How this Repo Was Created
+  href: how-to-create-repo.md
+  items:
+    - name: Create GitHub User
+      href: create-github-user.md
+    - name: Create GitHub Repo
+      href: create-github-repo.md
+    - name: Clone the Repo
+      href: clone-repo.md
+    - name: Add Collaborators
+      href: add-collaborators.md
+    - name: Create Main Branch
+      href: create-main-branch.md
+    - name: Configure General Settings
+      href: configure-general-settings.md
+    - name: Configure Branch Settings
+      href: configure-branch-settings.md
+    - name: Create a GitIgnore File
+      href: create-gitignore.md
+    - name: Define Code Owners
+      href: define-code-owners.md
+    - name: Configure GitHub Pages
+      href: configure-github-pages.md
+    - name: Create Initial Content
+      href: create-initial-content.md
+    - name: Verify Initial Site
+      href: verify-initial-site.md

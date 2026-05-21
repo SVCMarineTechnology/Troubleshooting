@@ -1,14 +1,14 @@
 # How this Repo was Created
 
-This section documents the complete process used to create and configure this repository—from the initial setup through preparing it to accept contributions for new troubleshooting guides. It captures every step required to reproduce the environment.
+This section documents the the procedures that were used to create and configure this repository—from repo creation through preparing it to accept contributions for new troubleshooting guides. It captures every step required to reproduce the environment.
 
 This section was written for a few  reasons:
 
-- **Replication** — The same setup process can be reused to create additional repositories, whether for troubleshooting guides or entirely different documentation projects.
-- **Migration** — If we later choose to replace one of the technologies used here, these notes provide the context needed to transition smoothly. For example, we currently rely on DocFX to convert Markdown into HTML; documenting that setup will make it easier to evaluate and migrate to alternatives such as MkDocs.
-- **Preservation** — Without written procedures, the decisions and steps behind this repository’s structure would eventually be forgotten. Recording them ensures long‑term continuity.
+- **Replication** — The same procedures can be reused to create additional repositories, whether for troubleshooting guides or entirely different documentation projects.
+- **Migration** — If we later choose to replace one of the technologies used here, these notes provide the context needed to transition smoothly. For example, we currently rely on DocFX to convert Markdown into HTML; documenting how that was done will make it easier to migrate to alternative solutions (e.g., MkDocs), if desired.
+- **Preservation** — Without written procedures, the decisions and steps behind this repository’s structure would eventually be forgotten. Recording them ensures this information isn't lost.
 
-The procedures below were used to create this repo:
+The procedures below were used to create this repo (in the order listed):
 
 **<u>Repo Creation</u>**
 
@@ -34,8 +34,6 @@ The procedures below were used to create this repo:
 **<u>Verification</u>**
 
 - [Verify Initial Site](verify-initial-site.md)
-
-
 
 
 

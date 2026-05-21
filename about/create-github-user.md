@@ -4,7 +4,7 @@ If you don't already have a GitHub account you can create one using the followin
 
 > [!NOTE]
 >
-> In this procedure we're creating the **SVCMarineTechnology** github user. This choice of user name is important because the user name is part of the URL of the repo that we'll create:
+> In this procedure we're creating the **SVCMarineTechnology** github user. This choice of user name is important because the user name is part of the URL of the repo that we'll create later on:
 >
 > `http://github.com/<UserName>/<RepoName>`
 >
@@ -12,7 +12,11 @@ If you don't already have a GitHub account you can create one using the followin
 >
 > `https://<UserName>.github.com/<RepoName>`
 >
-> So, we're choosing a name that identifies that Marine Technology Center within Skagit Valley College.
+> So, we're choosing a name that identifies the Marine Technology Center within Skagit Valley College.
+
+> [!IMPORTANT]
+>
+> The purpose of the **SVCMarineTechnology** user is mainly to form the basis of the URLs above.  The only reason to login as this user is to change the configuration of the repo.  If you want to contribute changes to the content of the repo, login as a user account for yourself, after you've [made yourself a collaborator](add-collaborators.md).
 
 ## Sign up for GitHub
 
@@ -24,7 +28,7 @@ If you don't already have a GitHub account you can create one using the followin
 
    | Parameter                                             | Example Value              | Comments                                                     |
    | ----------------------------------------------------- | -------------------------- | ------------------------------------------------------------ |
-   | Email                                                 | Mike.Beemer@skagit.edu     | Enter your email address                                     |
+   | Email                                                 | Mike.Beemer@skagit.edu     | Enter the email address you want to associate with the account |
    | Password                                              | (enter a strong  password) | Enter whatever  password you like                            |
    | Username                                              | SVCMarineTechnology        | If you're signing up for yourself, enter a username  that identifies you. For example,  JohnSmith |
    | Your Country/Region                                   | United States of  America  |                                                              |

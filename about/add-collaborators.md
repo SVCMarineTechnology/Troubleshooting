@@ -4,9 +4,9 @@ In the previous procedures we created the following repo:
 
  https://github.com/SVCMarineTechnology/Troubleshooting
 
-Now we want to add individual users who can contribute changes to the repo. These users are what GitHub calls *collaborators*.
+Now we want to add individual users who are authorized to contribute changes to the repo. These users are what GitHub calls *collaborators*.
 
-Complete the following procedure to add a new collaborator.  You can use this as an example to add additional collaborators later.
+Complete the following procedures to add a new collaborator.  You can use this as an example to add additional collaborators later.
 
 ## Invite Person to be a Collaborator
 
@@ -20,7 +20,7 @@ Adding a collaborator takes a couple of procedures.  The first one is to invite 
 
    ![](images/add-collaborators-click-add-people.png)
 
-4. Search for a user you want to add and click **Add**. For example:
+4. Search for a user you want to add and click **Add (USERNAME)**. For example:
 
    ![](images/add-collaborators-search-for-user.png)
 

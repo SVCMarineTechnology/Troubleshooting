@@ -1,10 +1,10 @@
 # Create GitIgnore
 
-Before we start creating markdown files we'll want to create a [.gitignore](https://github.com/github/gitignore) file that ensure that Git ignores temporary files that we don't want to push to our repo. The following procedures walk you through adding a .gitignore file to our repo by creating and merging a pull request (PR).
+Before we start creating markdown files we'll want to create a [.gitignore](https://github.com/github/gitignore) file to ensure that Git ignores temporary files that we don't want to push to our repo. The following procedures walk you through adding a .gitignore file to our repo by creating and merging a pull request (PR).
 
 > [!NOTE]
 >
-> This modification gives us a chance to add a needed file to our repo but also test the PR lifecycle that we'll use to contribute future changes.
+> This modification gives us a chance to add a needed file to our repo but also test the PR lifecycle that we'll use to contribute future changes.  So, the following procedure includes a walkthrough of how to create a branch, make a change, push changes, open & merge a pull request.
 
 ## Create a Branch
 
@@ -14,19 +14,15 @@ Before we start creating markdown files we'll want to create a [.gitignore](http
    >
    > Unless otherwise specified you should contribute changes to the repo as yourself (not **SVCMarineTechnology**).
 
-2. Create a branch
+2. Create a branch.  For example:
 
    ```
    git checkout -b MichelBarnett/AddGitIgnore
    ```
 
-## Create GitIgnore Fiole
+## Create GitIgnore File
 
-1. Create a file at the repo root named .gitignore with the following content:
-
-   > [!NOTE]
-   >
-   > This is a default `.gitignore` file appropriate for DocFX.
+1. Create a file in the root folder of the repo named `.gitignore` with the following content:
 
    ```
    # --- DocFX build output ---
@@ -37,6 +33,10 @@ Before we start creating markdown files we'll want to create a [.gitignore](http
    .cache/
    manifest.json
    ```
+
+> [!NOTE]
+>
+> This is a default `.gitignore` file appropriate for DocFX.
 
 ## Push Changes
 
@@ -67,7 +67,7 @@ Before we start creating markdown files we'll want to create a [.gitignore](http
    > git push --set-upstream origin MichelBarnett/AddGitIgnore
    > ```
    >
-   > You can just copy and paste the full command rather than trying to create it from scratch.
+   > You can just copy and paste the full command rather than creating it from scratch.
 
 ## Open a Pull Request
 
@@ -77,23 +77,27 @@ Before we start creating markdown files we'll want to create a [.gitignore](http
 
    ![](images/create-gitignore-new-pullrequest.png)
 
-3. Add a title and description as follows and click **Create pull request**
+3. Add a title and descriptionand click **Create pull request**.  For example:
 
    ![](images/create-gitignore-enter-title-description.png)
 
 ## Merge
 
-1. On the **Pull Requests** tab click **Merge pull request** for your PR
+1. Open your PR.  On the **Pull Requests** tab click **Merge pull request** to open the drop-down of merge choices.
 
    ![](images/create-gitignore-click-merge-pull-request.png)
 
-2. Click **Squash and Merge**
+2. Click **Squash and Merge** from the drop-down.
+
+   You should something like this:
 
    ![](images/create-gitignore-click-squash-and-merge.png)
 
 3. Click **Confirm squash and merge**
 
    ![](images/create-gitignore-click-confirm-squash-and-merge.png)
+
+The PR is now merged.
 
 ## Clean Up
 

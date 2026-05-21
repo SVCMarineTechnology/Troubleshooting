@@ -1,9 +1,9 @@
 # Create Initial Content
 
-At this point the repo has been configured the way to need, but we don't have the structure of our site setup the way we want yet.  The following describes the updates made to setup the site with it's current look-and-feel.  This includes:
+At this point the repo has been configured the way we need, but we don't have the structure of our site setup yet.  The following describes the updates made to setup the site with it's current look-and-feel.  This includes:
 
-- App Log - This is the Skallywags logo that you see in the upper left of every page on the site
-- The three menu structure you see in the site:
+- Setting the application logo - This is the Skallywags logo that you see in the upper left of every page on the site
+- The three-menu structure you see in the current site:
   - Troubleshooting
   - How to Contribute
   - About
@@ -29,7 +29,7 @@ We won't provide a detailed walkthrough of these files here, since the changes a
 
 > [!IMPORTANT]
 >
-> There's a change that was made after this PR that should have been made here.  Specifically the `metadata` array should be removed from the file.  This refers to this content:
+> There's a change that was made after this PR was merged that should have been made here.  Specifically the `metadata` array should be removed from the `docfx.json` file found at the root of the repo.  Specifically you'll note that the content below appears in the `docfx.json` file in the PR above, but it's not in the latest version of the file:
 >
 > ```yaml
 >   "metadata": [
@@ -47,7 +47,7 @@ We won't provide a detailed walkthrough of these files here, since the changes a
 >   ],
 > ```
 >
-> This is configuration for DocFX content that we're not using.  If you don't delete this from `docfx.json` everything but you'll get a couple of extraneous warnings when you use DocFX to compiles your markdown files.
+> This is configuration for a DocFX feature that we're not using.  If you don't delete this from `docfx.json` then everything works, but you'll get a couple of extraneous warnings when you use DocFX to compiles your markdown files.
 
 ## Create and Merge PR
 

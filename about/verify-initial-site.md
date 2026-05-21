@@ -1,6 +1,6 @@
 # Verify Initial Site
 
-TBD
+The last thing to do is to verify that our GitHub Pages site renders properly.
 
 ## Open Site
 
@@ -12,6 +12,8 @@ TBD
    
    ![](images/verify-initial-site-landing-page.png)
 
+Note that the page content is stubbed in, but you can see the logo in the upper left and the familiar three menus: **Troubleshooting**, **How to Contribute**, and **About**.
+
 ## Next Steps
 
-That's the end of the site creation process.  The only thing left is to add additional content.
+That's the end of the repo creation process.  The difference between this starting point and the current state of the repo is the additional content that's been added to each of the three sections.

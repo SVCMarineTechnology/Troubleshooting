@@ -52,7 +52,7 @@ We won't provide a detailed walkthrough of these files here, since the changes a
 ## Create and Merge PR
 
 1. Create a PR from your branch and merge
-2. Delete the branch (locally and in the repo)
+2. Delete the branch
 
 ## Next Steps
 

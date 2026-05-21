@@ -28,7 +28,7 @@ The [branch rule we setup earlier](configure-branch-settings.md) includes the `R
 ## Create and Merge PR
 
 1. Create a PR from your branch and merge
-2. Delete the branch (locally and in the repo)
+2. Delete the branch
 
 ## Next Steps
 

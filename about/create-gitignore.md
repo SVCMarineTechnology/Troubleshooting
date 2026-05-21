@@ -101,16 +101,6 @@ The PR is now merged.
 
 ## Clean Up
 
-### Delete your Branch in the Repo
-
-   1. Open a browser to the [Troubleshooting](https://github.com/SVCMarineTechnology/Troubleshooting) repo
-
-   2. Select branches and click **Delete** next to your branch
-
-      ![](images/create-gitignore-click-delete-for-your-branch.png)
-
-### Delete your branch locally
-
 1. Open a [Troubleshooting](https://github.com/SVCMarineTechnology/Troubleshooting) command prompt
 
 2. Execute

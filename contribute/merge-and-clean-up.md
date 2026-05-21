@@ -14,15 +14,7 @@ When your PR is approved and you're ready to merge, complete the following steps
 
 ## Delete the Repo Branch
 
-Now that the change has been merged we need to delete the branch we created in the repo.
-
-1. Open a browser to the [Troubleshooting](https://github.com/SVCMarineTechnology/Troubleshooting) repo, select branches, and click **Delete** next to your branch:
-
-   ![](images/merge-and-clean-up-click-delete-next-to-branch-name.png)
-
-## Delete your Local Branch
-
-You'll also want to delete your local branch.  You can do so by completing the following steps.
+Now that the change has been merged we need to delete the branch we created.
 
 1. Open a [Troubleshooting](https://github.com/SVCMarineTechnology/Troubleshooting) command prompt
 

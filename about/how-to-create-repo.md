@@ -20,8 +20,10 @@ The procedures below were used to create this repo (in the order listed):
 
 - [Add Collaborators](add-collaborators.md)
 - [Create Main Branch](create-main-branch.md)
+- [Configure General Settings](configure-general-settings.md)
 - [Configure Branch Settings](configure-branch-settings.md)
 - [Create a GitIgnore File](create-gitignore.md)
+- [Define Code Owners](define-code-owners.md)
 
 **<u>GitHub Pages Setup</u>**
 

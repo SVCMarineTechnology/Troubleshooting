@@ -29,4 +29,4 @@ For additional information see:<br>[git init](https://github.com/git-guides/git-
 
 ## Next Steps
 
-Now that we've created `main` we can [configure branch settings](configure-branch-settings.md) for the new branch.
+Now that we've created `main` we can [configure general settings](configure-general-settings.md) for the repo.

@@ -25,7 +25,7 @@ In the following procedure we'll create a branch rule to require that a PR be us
    | Ruleset name       | Require a PR before merging to main                          |
    | Enforcement status | Active                                                       |
    | Target branches    | 1. Click **Add Target**<br>2. Select **include by pattern**<br>3. Enter **main** and click **Add Including pattern** |
-   | Branch rules       | Only check the following box:  **Require a pull request       before merging** |
+   | Branch rules       | Only check the following box:  **Require a pull request before merging** |
 
 4. Select additional parameters for **Require a pull request before merging** branch rule
 

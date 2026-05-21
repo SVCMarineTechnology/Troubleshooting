@@ -146,4 +146,4 @@ The PR is now merged.
 
 ## Next Steps
 
-With the gitignore file checked in, we'll proceed with some additional repo configuration.  Specifically [configuring GitHub Pages](configure-github-pages.md).
+With the gitignore file checked in, we'll proceed with [defining the code owners](define-code-owners.md) for the repo.

@@ -13,10 +13,14 @@
       href: add-collaborators.md
     - name: Create Main Branch
       href: create-main-branch.md
+    - name: Configure General Settings
+      href: configure-general-settings.md
     - name: Configure Branch Settings
       href: configure-branch-settings.md
     - name: Create a GitIgnore File
       href: create-gitignore.md
+    - name: Define Code Owners
+      href: define-code-owners.md
     - name: Configure GitHub Pages
       href: configure-github-pages.md
     - name: Create Initial Content

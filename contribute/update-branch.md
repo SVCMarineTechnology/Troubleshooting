@@ -18,7 +18,7 @@ It's usually helpful before you push changes to see what they are first.  Comple
 
    ![](images/update-branch-git-status.png)
 
-## Push Changes
+## Stage Files
 
 1. Stage your changes by using the `git add` command. For example:
 
@@ -30,26 +30,30 @@ It's usually helpful before you push changes to see what they are first.  Comple
    >
    > We're specifying `.` as an argument to `git add` which means: *stage all new, modified, deleted files in the current directory and all sub-directories*.  There are many variations on on the argument to this command.  See documentation on the [git add](https://github.com/git-guides/git-add) command for more detail.
 
-2. Create a commit
+## Create a Commit
 
-   ```powershell
-   git commit -m "<YourComment>"
-   ```
+Create a commit
 
-   for example:
+```powershell
+git commit -m "<YourComment>"
+```
 
-   ```powershell
-   git commit -m "new repo contribution procedures"
-   ```
+for example:
 
-   > [!TIP]
-   >
-   > Make your comment descriptive so it's easier to identify the associated changes.
+```powershell
+git commit -m "new repo contribution procedures"
+```
 
-3. Push your changes by executing:
+> [!TIP]
+>
+> Make your comment descriptive so it's easier to identify the associated changes.
+
+## Push Changes
+
+1. Push your changes by executing:
 
    ```powershell
    git push
    ```
 
-Now your local changes are synced with the github repo.
+Now your local changes are synced with the GitHub repo.

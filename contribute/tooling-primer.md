@@ -16,7 +16,7 @@ The guidance in this repo is not designed to teach you these technologies.  But 
 
 **Git** is a distributed version control system that lets you track changes to files, collaborate with others, and maintain a complete history of a project *locally* on your own machine.  
 
-**GitHub** is a cloud-based platform that provides users tools to create, store, manage, and share  changes *globally*.  GitHub offers a variety of features and services that are key to maintaining our Troubleshooting guides.
+**GitHub** is a *cloud*-based platform that provides users tools to create, store, manage, and share  changes *globally*.  GitHub offers a variety of features and services that are key to maintaining our Troubleshooting guides.
 
 Git and GitHub work together.  You make commits locally with Git, then **push** them to GitHub; you **pull** others’ changes from GitHub back to your machine. GitHub manages collaboration, Git manages the data.
 
@@ -29,7 +29,7 @@ Git and GitHub work together.  You make commits locally with Git, then **push** 
 
 The best description of the *mechanics* of working with Git and GitHub can be found in this site:
 
-- [How to Contribute](introduction.md) - The steps in the contribution procedure link to pages that provide full detail on the commands you need to execute to complete each step.  Technically, you can just follow the instructions to get your work done.  But understanding the basic concepts behind Git and GitHub will make it easier to understand *why* you're executing these commands.  
+- [How to Contribute](introduction.md) - The steps in the contribution procedure link to pages that provide full detail on the commands you need to execute for each step.  Technically, you can just follow the instructions to get your work done.  But understanding the basic concepts behind Git and GitHub will make it easier to understand *why* you're executing these commands.  
 
 The following videos provide a brief explanation of Git and GitHub that provide context on the contribution procedures just mentioned:
 
@@ -53,7 +53,7 @@ Markdown is a lightweight markup language used to add formatting elements to pla
 
 **<u>Getting Started</u>**
 
-You'll likely use a Markdown tool (like [Typora](https://typora.io/)), for most of your Markdown editing.  However, it's important to understand how to write markdown from scratch (in practice, it's occasionally necessary).  The following is a good reference
+You'll likely use a Markdown tool (like [Typora](https://typora.io/)), for most of your Markdown editing.  So, getting started is mostly a matter of getting comfortable with the Markdown editor you choose.  The other Markdown pages already in a repo can also be leveraged as examples... likely one of them already contains the Markdown for something you want to write.  However, it's important to understand how to write markdown from scratch (in practice, it's occasionally necessary).  The following is a good reference
 
 - [Basic Syntax | Markdown Guide](https://www.markdownguide.org/basic-syntax/) - A concise reference for Markdown syntax.
 
@@ -77,7 +77,7 @@ The documentation in our repo is fundamentally Markdown.  However, there are som
 
 - [Markdown Extensions](https://dotnet.github.io/docfx/docs/markdown.html#markdown-extensions) - DocFX supports additional markdown syntax based on the extensions in the guide.  In particular, we use DocFX [Alerts](https://dotnet.github.io/docfx/docs/markdown.html#alerts) in our troubleshooting guides.
 - [Table of Contents](https://dotnet.github.io/docfx/docs/table-of-contents.html) - A reference for the `toc.yml` files found in our repo.
-- [Config Reference](https://dotnet.github.io/docfx/reference/docfx-json-reference.html) - Reference for the `docfx.json` file in our repo (the main configuration file for DocFX).  This file won't often change but if needed, this is the  fullreference.
+- [Config Reference](https://dotnet.github.io/docfx/reference/docfx-json-reference.html) - Reference for the `docfx.json` file in our repo (the main configuration file for DocFX).  This file won't often change but if needed, this is the  full reference.
 
 Another useful resource is the command line reference for the `docfx` tool:
 

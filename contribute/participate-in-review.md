@@ -1,6 +1,6 @@
 # Participate in Review
 
-Once a pull request (PR) is created, it needs to be reviewed and approved before merging it into the `main` branch.  The following procedure provide examples of the most common actions you'll complete when reviewing a PR.  In this example, we're using the following PR.
+Once a pull request (PR) is created, it needs to be reviewed and approved before merging it into the `main` branch.  The following procedure walks you through the most common actions you'll complete when reviewing a PR.  In this example, we're using the following PR.
 
 https://github.com/SVCMarineTechnology/Troubleshooting/pull/5
 

@@ -2,7 +2,7 @@
 
 Thanks for your interest in contributing to the [SVC Marine Technology Troubleshooting repo](https://github.com/SVCMarineTechnology/Troubleshooting)!
 
-This repo uses a Pull Request (PR) workflow, protected main branch, and a lightweight review process.  This guide explains exactly how to propose changes, what's expected, and how to get your contribution merged.
+This guide explains exactly how to propose changes, what's expected, and how to get your contribution merged.
 
 Make sure you're familiar with the following documents before you make a contribution:
 

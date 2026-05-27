@@ -15,7 +15,7 @@ In order to contribute changes to the repo, you'll need to create a branch to st
 
    > [!TIP]
    >
-   > Before creating a new branch from `main`, it's always a good idea to ensure you're on the `main` branch first, and that you have the latest changes.
+   > Before creating a new branch from `main`, it's always a good idea to ensure you're on the `main` branch first, and that you have the latest changes by going a `git pull`.
 
 3. Create a branch by executing the following:
 
@@ -56,7 +56,7 @@ Before we can push changes we need to associate the local branch we just created
    >
    > The `--set-upstream` command is what we need to execute.  Running `git push` when we know it'll fail is an easy way to get git to generate the command for us.
 
-2. Execute the following command:
+2. Copy-and-paste the command that git just gave us:
 
    ```powershell
    git push --set-upstream origin <BranchName>

@@ -8,7 +8,7 @@ When your PR is approved and you're ready to merge, complete the following steps
 
    https://github.com/SVCMarineTechnology/Troubleshooting/pull/5
 
-2. Click Squash and Merge
+2. Click **Squash and Merge**
 
    ![](images/merge-and-clean-up-click-squash-and-merge.png)
 
@@ -40,4 +40,7 @@ Now that the change has been merged we need to delete the branch we created.
    git branch -D michelbarnett/contribute
    ```
 
-   
+
+This deletes the branch you created earlier and your environment is cleaned up.  
+
+Now you're ready to start this procedure again for the next contribution.

@@ -1,15 +1,16 @@
 # How to Contribute
 
-Thanks for your interest in contributing!
+Thanks for your interest in contributing to the [SVC Marine Technology Troubleshooting repo](https://github.com/SVCMarineTechnology/Troubleshooting)!
 
 This repo uses a Pull Request (PR) workflow, protected main branch, and a lightweight review process.  This guide explains exactly how to propose changes, what's expected, and how to get your contribution merged.
 
-Before you make a contribution to the repo, you'll need to review a couple of documents:
+Make sure you're familiar with the following documents before you make a contribution:
 
-- [Style Guide](style-guide.md) - this details conventions used when writing the troubleshooting guides in this repo.  Be sure you follow these conventions when you modify or create your own troubleshooting guide.
-- [Install Software](install-software.md) - Required and optional software needed before you start working with this repo.
+- [Style Guide](style-guide.md) - Conventions used in the troubleshooting guides in this repo.  Be sure you follow these conventions when you modify or create your own troubleshooting guide.
+- [Install Software](install-software.md) - Software needed before you start working with this repo.
+- [Tooling Primer](tooling-primer.md) - Making a contribution to this repo requires an understanding of GitHub, Markdown, and DocFX.  If you're new to any of these technologies, links on this page can help you get started.
 
-Start by reviewing the [Style Guide](style-guide.md)  and complete the procedures on the [Install Software](install-software.md) page.  When you're ready, complete these steps to contribute a change:
+When you're ready, complete these steps to contribute a change:
 
 1. [Clone the Repo](clone-repo.md)
 

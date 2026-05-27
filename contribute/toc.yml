@@ -11,6 +11,8 @@
   href: style-guide.md
 - name: Template
   href: template.md
+- name: Tooling Primer
+  href: tooling-primer.md
 - name: Contribution Procedures
   items:
     - name: Clone Repo

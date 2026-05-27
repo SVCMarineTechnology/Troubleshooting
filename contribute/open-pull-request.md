@@ -6,11 +6,11 @@ When you're ready to put your changes up for review, you'll need to open a pull 
 
 1. Open a browser to the [Troubleshooting](https://github.com/SVCMarineTechnology/Troubleshooting) repo
 
-2. Click branches
+2. Click **Branches**
 
    ![](images/open-pull-request-click-branches.png)
 
-3. Click the branch menus next to your branch and select **New pull request**
+3. Click the **branch menu** next to your branch and select **New pull request**
 
    ![](images/open-pull-request-select-new-pull-request.png)
 

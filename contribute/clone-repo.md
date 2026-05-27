@@ -4,7 +4,7 @@ Before you can start working with the [Troubleshooting](https://github.com/SVCMa
 
 ## Clone Repo
 
-1. Open a new Command Prompt
+1. Open a new **Command Prompt**
 
 2. Change to the directory where you'll clone the repository (create it if doesn't exist).  For example:
 
@@ -14,13 +14,13 @@ Before you can start working with the [Troubleshooting](https://github.com/SVCMa
 
    > [!NOTE]
    >
-   > You can clone the repo wherever you like.  The convention used in this guide is to place all github files in a directory structure following this convention:
+   > You can clone the repo wherever you like.  The convention used in this guide is to place all GitHub files in a directory structure following this convention:
    >
    > ```powershell
    > \github\<UserName>\<RepoName>
    > ```
 
-3. Clone the repo by entering this command in the same command prompt:
+3. Clone the repo by entering this command in the same command prompt.  for example:
 
    ```powershell
    git clone https://github.com/SVCMarineTechnology/Troubleshooting Troubleshooting
@@ -34,7 +34,7 @@ The rest of this guide includes steps that state:
 
 1.  Open a [Troubleshooting](https://github.com/SVCMarineTechnology/Troubleshooting) command prompt
 
-This is asking you to open a Windows Command Prompt where the current directory is the root of the repo we just cloned. If you're using Windows, the following procedure explains how to create a shortcut that accomplishes this.
+This is asking you to open a  **Command Prompt** where the current directory is the root of the repo we just cloned. If you're using Windows, the following procedure explains how to create a shortcut that accomplishes this.
 
 > [!TIP]
 >

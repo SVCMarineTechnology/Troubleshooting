@@ -2,7 +2,7 @@
 
 The following procedures we're run on a machine with the following software:
 
-- Windows 11 Home (Version 25H2) - This includes installing all updates through Windows Update and updating all applications in the Microsoft Store app.
+- Windows 11 Home (Version 25H2) - This includes installing all updates through Windows Update and updating all applications in the **Microsoft Store** app.
 
 You can have additional software installed but it's suggested you start with at least this version of the operating system.
 
@@ -34,7 +34,7 @@ For additional information see:<br>[Git - Install for Windows](https://git-scm.c
 
     [.NET SDK](https://dotnet.microsoft.com/en-us/download) 
 
-2. Open a new **Command Prompt** and execute:
+2. Install DocFX by opening a new **Command Prompt** and executing:
 
    ```powershell
    dotnet tool update -g docfx

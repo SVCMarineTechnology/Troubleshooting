@@ -1,6 +1,6 @@
 # Test your content locally by running DocFX
 
-We're using DocFX to turn our markdown files into HTML.  When we merge new markdown files into the `main` branch, out GitHub repo automatically compiles the updated markdown files into HTML and then hosts that content here:
+We're using DocFX to turn our markdown files into HTML.  When we merge new markdown files into the `main` branch, our GitHub repo automatically compiles the updated markdown files into HTML and then hosts that content here:
 
 [Marine Maintenance Technology: Troubleshooting Guides](https://svcmarinetechnology.github.io/Troubleshooting/)
 
@@ -8,7 +8,7 @@ This means it's important that, before we complete a PR, we've checked our conte
 
 > [!TIP]
 >
-> You should definitely verify your content using DocFX before you put a PR up for review.  But it's also a good idea to do this as you write your content so you find errors as early as possible.
+> You should definitely verify your content using DocFX before you put a PR up for review.  But it's also a good idea to periodically do this as you write your content so you find errors as early as possible.
 
 ## Run DocFX
 
@@ -28,7 +28,7 @@ This means it's important that, before we complete a PR, we've checked our conte
 
 A successful DocFX execution looks like the screenshot in the previous section.  If that's what you see then you don't have any errors and you can proceed to the next section.
 
-Most commonly, DocFX errors are broken references.  For example:
+When errors do occur, they're often due to broken references.  For example:
 
 ![](images/run-docfx-docfx-execution-with-warning.png)
 
@@ -42,7 +42,7 @@ This is just one example, but it's pretty typical of the warnings that might be 
 
 ## Verify DocFX Output
 
-Even if there are no DocFX warnings, it's possible that the generated HTML doesn't render properly.  Something as simple a space in the wrong place can cause formatting issues.  Before you consider your content done, open the troubleshooting guide and visually check the pages you modified to ensure they look as expected.  You can do that by completing these steps:
+Even if there are no DocFX warnings, it's possible that the generated HTML doesn't render properly.  Something as simple as a space in the wrong place can cause formatting issues.  Before you consider your content done, open the troubleshooting guide and visually check the pages you modified to ensure they look as expected.  You can do that by completing these steps:
 
 1. Open a browser to http://localhost:8080
 

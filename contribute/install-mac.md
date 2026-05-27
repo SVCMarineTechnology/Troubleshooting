@@ -53,7 +53,7 @@ For additional information see:<br>[Git - Install for macOS](https://git-scm.com
 
     [Browse all .NET versions to download](https://dotnet.microsoft.com/en-us/download/dotnet)
 
-2. Open a **Terminal** and execute:
+2. Install DocFX by opening **Terminal** and executing:
 
    ```powershell
    dotnet tool update -g docfx

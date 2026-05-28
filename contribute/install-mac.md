@@ -49,6 +49,23 @@ git
 
 For additional information see:<br>[Git - Install for macOS](https://git-scm.com/install/mac)
 
+## Install Git Credential Manager
+
+Git Credentials Manager is needed to simplify authentication to GitHub.  Without it, it's necessary to go through a relatively complicated procedure to create and install a personal access token (PAT).
+
+Complete the following steps to install the credential manager:
+
+1. In **Terminal** execute the following commands:
+
+   ```powershell
+   brew install --cask git-credential-manager
+   git-credential-manager configure
+   ```
+
+Now, when you run `git push` for the first time, a GitHub login window will appear allowing you to login with your GitHub username and password.
+
+For additional information see:<br>[Git Credential Manager Installation](https://github.com/git-ecosystem/git-credential-manager/blob/main/docs/install.md)
+
 ## Install DocFX
 
 1. Install the *latest* version of the .NET SDK by opening this link and following the directions to download and install the SDK for macOS and your chipset (Arm64 or x64):

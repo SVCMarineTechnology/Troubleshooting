@@ -1,8 +1,8 @@
 # Install Software on macOS
 
-The following procedures we're run on a machine with the following software:
+The following procedures we're run on a MacBook Pro with the following software:
 
-- TBD
+- m,acOS Sonoma (Version 14.8.1)
 
 You can have additional software installed but it's suggested you start with at least this version of the operating system.
 
@@ -19,6 +19,8 @@ Complete the following procedures in order.  When this software is installed, yo
 >   ```
 >
 >   If you're on a Mac, it's suggested you use this same path.  But you'll need to decide where this folder is rooted.
+>
+> - Instructions to run commands to manipulate the file system such as `mkdir` (make directory) or `dir` (list files and directories) will have to translated to their macOS equivalents.
 >
 > - Any references to opening a **Command Prompt** should be translated as opening **Terminal**
 >
@@ -49,7 +51,7 @@ For additional information see:<br>[Git - Install for macOS](https://git-scm.com
 
 ## Install DocFX
 
-1. Install the latest version of the .NET SDK by opening this link and following the directions:
+1. Install the *latest* version of the .NET SDK by opening this link and following the directions to download and install the SDK for macOS and your chipset (Arm64 or x64):
 
     [Browse all .NET versions to download](https://dotnet.microsoft.com/en-us/download/dotnet)
 
@@ -59,7 +61,7 @@ For additional information see:<br>[Git - Install for macOS](https://git-scm.com
    dotnet tool update -g docfx
    ```
 
-3. Install the latest version of Node.js by opening this link and following the directions:
+3. Install the latest version of Node.js by opening this link and following the directions to download and  install the SDK for macOS and your chipset (Arm64 or x64):
 
    [Node.js — Run JavaScript Everywhere](https://nodejs.org/en)
 
@@ -75,7 +77,7 @@ For additional information see:<br>[DocFX Quick Start](https://dotnet.github.io/
 
 ## [Optional] Install Visual Studio Code
 
-1. Install the latest version of Visual Studio Code by opening this link and following the directions:
+1. Install the latest version of Visual Studio Code by opening this link and following the directions to download and install VS Code for the macOS:
 
    [Download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/download)
 
@@ -83,7 +85,7 @@ For additional information see:<br>[Visual Studio Code](https://code.visualstudi
 
 ## [OPTIONAL] Install Typora
 
-1. Install the latest version of Typora by opening this link and then downloading and installing the tool for your platform:
+1. Install the latest version of Typora by opening this link and then downloading and installing the tool for the macOS:
 
    [Typora — simple yet powerful Markdown reader.](https://typora.io/)
 

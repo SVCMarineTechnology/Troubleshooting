@@ -18,8 +18,8 @@ We're going to start by using DocFX to build our Markdown files into the HTML th
 
 2. Execute
 
-   ```
-   docfx build docfx.json
+   ```powershell
+   docfx docfx.json --serve
    ```
 
    you should see something like this:
@@ -46,21 +46,7 @@ This is just one example, but it's pretty typical of the warnings that might be 
 
 Even if there are no DocFX warnings, it's possible that the generated HTML doesn't render properly.  Something as simple as a space in the wrong place can cause formatting issues.  Before you consider your content done, open the troubleshooting guide and visually check the pages you modified to ensure they look as expected.  You can do that by completing these steps:
 
-1. In the same command prompt execute:
-
-   ```powershell
-   docfx serve _site
-   ```
-
-   you should see something like this:
-
-   ![](images/run-docfx-docfx-serve.png)
-
-   > [!NOTE]
-   >
-   > The `.\_site` folder is what gets created by `docfx build`.  These are the static HTML pages that DocFX generates from our Markdown files. `docfx serve` just hosts the HTML files in a local web server so you can view them on your machine.
-
-1. Open a browser to the URL that `docfx serve` writes to the console: http://localhost:8080
+1. Open a browser to the URL that `docfx docfx.json --serve` writes to the console: http://localhost:8080
 
    You can find this URL in the output of the DocFX command we just ran:
 

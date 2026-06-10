@@ -27,7 +27,7 @@
       "_appName": "",
       "_appTitle": "",
       "_enableSearch": true,
-      "pdf": true,
+      "pdf": false,
       "_appLogoPath": "images/skallywags.jpg"
     }
   }

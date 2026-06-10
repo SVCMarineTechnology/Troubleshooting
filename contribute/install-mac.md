@@ -51,18 +51,19 @@ For additional information see:<br>[Git - Install for macOS](https://git-scm.com
 
 ## Install Git Credential Manager
 
-Git Credentials Manager is needed to simplify authentication to GitHub.  Without it, it's necessary to go through a relatively complicated procedure to create and install a personal access token (PAT).
+Git Credentials Manager is needed to simplify authentication to GitHub.  It eliminates the need to repeatedly enter a username and personal access token (PAT) by securely storing your credentials and automatically providing them when required.
 
 Complete the following steps to install the credential manager:
 
-1. In **Terminal** execute the following commands:
+1. Download and double-click the [installation package](https://github.com/git-ecosystem/git-credential-manager/releases/latest) and follow the instructions presented.
 
-   ```powershell
-   brew install --cask git-credential-manager
-   git-credential-manager configure
-   ```
-
-Now, when you run `git push` for the first time, a GitHub login window will appear allowing you to login with your GitHub username and password.
+   > [!TIP]
+   >
+   > When you open this link you'll need to download the package that's appropriate for your operating system and architecture.  For example, assuming the latest version is 2.8.0, the correct package file for macOS on arm64 is:
+   >
+   > ![](images/install-mac-git-credential-manager-package.png)
+   
+   Now, when you run `git push` for the first time, a GitHub login window will appear allowing you to login with your GitHub username and password.  The Git Credential Manager will take care of caching your credentials and automatically presenting them to GitHub on subsequent `push` requests.
 
 For additional information see:<br>[Git Credential Manager Installation](https://github.com/git-ecosystem/git-credential-manager/blob/main/docs/install.md)
 

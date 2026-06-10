@@ -10,14 +10,16 @@ This means it's important that, before we complete a PR, we've checked our conte
 >
 > You should definitely verify your content using DocFX before you put a PR up for review.  But it's also a good idea to periodically do this as you write your content so you find errors as early as possible.
 
-## Run DocFX
+## Build Markdown Files
+
+We're going to start by using DocFX to build our Markdown files into the HTML that is rendered on our GitHub pages site.  Complete the following steps to do so.
 
 1. Open a [Troubleshooting](https://github.com/SVCMarineTechnology/Troubleshooting) command prompt.
 
 2. Execute
 
    ```
-   docfx docfx.json --serve
+   docfx build docfx.json
    ```
 
    you should see something like this:
@@ -44,13 +46,33 @@ This is just one example, but it's pretty typical of the warnings that might be 
 
 Even if there are no DocFX warnings, it's possible that the generated HTML doesn't render properly.  Something as simple as a space in the wrong place can cause formatting issues.  Before you consider your content done, open the troubleshooting guide and visually check the pages you modified to ensure they look as expected.  You can do that by completing these steps:
 
-1. Open a browser to http://localhost:8080
+1. In the same command prompt execute:
 
-   You can see this tip in the output of the DocFX command we ran earlier:
+   ```powershell
+   docfx serve _site
+   ```
+
+   you should see something like this:
+
+   ![](images/run-docfx-docfx-serve.png)
+
+   > [!NOTE]
+   >
+   > The `.\_site` folder is what gets created by `docfx build`.  These are the static HTML pages that DocFX generates from our Markdown files. `docfx serve` just hosts the HTML files in a local web server so you can view them on your machine.
+
+1. Open a browser to the URL that `docfx serve` writes to the console: http://localhost:8080
+
+   You can find this URL in the output of the DocFX command we just ran:
 
    ![](images/run-docfx-verify-docfx-output.png)
 
+   you should see something like this:
 
+   ![](images/run-docfx-locally-rendered-site.png)
 
+   This is a locally rendered version of the content that we publish in our GitHub Pages site: [Marine Maintenance Technology: Troubleshooting Guides](https://svcmarinetechnology.github.io/Troubleshooting/).  We can use this to verify our content is rendering correctly before we merge changes into the `main` branch.
 
+1. Click through the locally rendered site to verify that any changes you made have been rendered correctly.
+
+When you can build your Markdown files without warning and you verify they're rendered properly, then you're ready to push changes and create a pull request.
 

@@ -10,7 +10,9 @@ https://github.com/SVCMarineTechnology/Troubleshooting/pull/5
 
    https://github.com/SVCMarineTechnology/Troubleshooting/pull/5
 
-2. Review the change.  You'll want to pay particular attention to the following items:
+2. Review the change.  
+
+   You'll want to pay particular attention to the following items:
 
    - **Description** - Read it to understand the overall change
    - **Comments** - Check if others have added a comment to learn about issues that have already been identified.
@@ -28,9 +30,13 @@ Most of the comments you'll make will probably be to a specific file.  The follo
 
    ![](images/participate-in-review-view-files-changed.png)
 
-   The list of files on the left are all of the files that are changed in this PR.  In this example, all of the files are in the `contribute` directory.  This is a good way to a get a quick read on which parts of the repo have been modified.
+   The list of files on the left are all of the files that are changed in this PR.  In this example, all of the files are in the `contribute` directory.
+   
+   > [!TIP]
+   >
+   > This is a good way to a get a quick read on which parts of the repo have been modified.
 
-2. Add a comment by selecting a a line and clicking the `+` button.  For example:
+2. Add a comment by selecting a line and clicking the `+` button.  For example:
 
    ![](images/participate-in-review-add-comment-to-line.png)
 
@@ -48,7 +54,7 @@ You can also add general comments to the PR.  This is appropriate when the comme
 
 ## Resolve a Comment
 
-As the person who create the PR, you'll need to resolve all comments before you can merge your PR to main.  Here's an example of how to resolve a comment.
+As the person who creates the PR, you'll need to resolve all comments before you can merge your PR to `main`.  Here's an example of how to resolve a comment.
 
 1. Open your PR and review the comments that have been made.  In this example there are two comments:
 
@@ -64,11 +70,11 @@ As the person who create the PR, you'll need to resolve all comments before you 
 
    > [!TIP]
    >
-   > If you're not ready to resolve the conversation you can also reply to the reviewer by entering a message in the **Reply** text box.
+   > If you're not ready to resolve the conversation you can also reply to the reviewer by entering a message in the **Reply** text box.  This gets you into a dialog with the reviewer before you resolve the conversation.
 
    ![](images/participate-in-review-click-resolve-conversation.png)
 
-   4. Now enter a message to the reviewer and click **Comment**.
+   4. Now enter a message to the reviewer and click **Resolve conversation** again.
 
    ![](images/participate-in-review-resolve-comment.png)
 
@@ -77,5 +83,25 @@ As the person who create the PR, you'll need to resolve all comments before you 
 > It's helpful to write something so the reviewer knows you actually did something before resolving the comment.  Simply writing 'fixed' is a good example.  Add additional detail if appropriate.
 
 This resolves this particular comment.  Resolving any other comment (including general comments) works the same way.
+
+## Verify Markdown in DocFX
+
+Most of the review process takes place in the GitHub portal.  However, as a reviewer it's also a good idea to checkout the branch locally and ensure the content renders correctly in DocFX.  Complete the following steps to do so.
+
+1. On your local machine, checkout the branch in the PR by opening a [Troubleshooting](https://github.com/SVCMarineTechnology/Troubleshooting) command prompt and executing: 
+
+   ```powershell
+   git checkout <BranchName>
+   ```
+
+   for example:
+
+   ```
+   git checkout michelbarnett/contribute
+   ```
+
+2. Verify that DocFX and runs without errors and validate that the content renders properly per the instructions here: [Run DocFX](run-docfx.md).
+
+
 
    

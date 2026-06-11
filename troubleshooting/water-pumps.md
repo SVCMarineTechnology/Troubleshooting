@@ -101,15 +101,13 @@ This guide details how to trouble-shoot an electrical water pump that fails to r
 
    ![](images/water-pumps-using-jumper-on-pump.png)
 
-2. Disconnect a wire to one of the terminals
+2. Remove one of the two wires 
 
-   In the next step we'll connect the terminals with a jumper wire to temporarily bypass the pressure switch.
-
-   QUESTION TO MIKE BEEMER: It looks like we're missing a step where we connect the terminals with the jumper wire.
+   This takes the pump out of the circuit
 
 3. Reset the breaker (or install a new fuse)
 
-4. Run the pump again
+4. Turn on the pump again
 
    ❓**If the fuse/breaker no longer trips, the pump has a short:**
 
@@ -191,22 +189,3 @@ This guide details how to trouble-shoot an electrical water pump that fails to r
           1. Work through the system to find the fault
 
        
-
----
-
-## Preventive Maintenance Checklist
-
-### Every TBD Months
-
-- TBD
-- TBD
-
-### Annually
-
-- TBD
-- TBD
-
-### Never Do This
-
-- ❌ **Never TBD** — TBD.
-- ❌ **Never TBD** — TBD.

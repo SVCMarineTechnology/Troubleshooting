@@ -105,7 +105,7 @@ This guide details how to trouble-shoot an electrical water pump that fails to r
 
    In the next step we'll connect the terminals with a jumper wire to temporarily bypass the pressure switch.
 
-   QUESTION TO MIKE BEEMER: It looks like we're missing a step where we connect the terminals with the jumper wire.
+   QUESTION TO MIKE BEEMER: It looks like we're missing a step where we connect the terminals with the jumper wire. 
 
 3. Reset the breaker (or install a new fuse)
 
